@@ -1,10 +1,5 @@
 body {
   width: 1200px;
-  position: relative;
-}
-
-div {
-  border: 1px solid black;
 }
 
 p {
@@ -24,6 +19,7 @@ p {
   position: fixed;
   z-index: 10;
   width: 1200px;
+  top: 0;
 }
 
 .headcont1 {
@@ -116,10 +112,57 @@ p {
 }
 
 .list li {
+  display: flex;
+  align-items: center;
   border-bottom: 1px solid black;
   list-style: none;
   height: 40px;
   background-color: WhiteSmoke;
+}
+
+.footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 300px;
+  background-color: MediumAquamarine;
+  margin: auto;
+}
+
+.footer p {
+  font-family: Verdana;
+  font-size: 12px;
+}
+
+.footcont1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 600px;
+}
+
+.footcont1 li {
+  display: inline-flex;
+  text-decoration:underline;
+  align-content: center;
+  list-style: none;
+  font-family: Verdana;
+  font-size: 12px;
+}
+
+.copyright {
+  font-family: Verdana;
+  font-size: 12px;
+  text-align: center;
+  width: 600px;
+}
+
+.footlogo p {
+  font-family: Georgia;
+  font-size: 16px;
+  font-weight: bold;
+  color: white;
 }
 
 #storymain {
